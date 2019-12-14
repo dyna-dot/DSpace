@@ -30,7 +30,7 @@
         <!-- Library for reading JSON documents: https://github.com/json-path/JsonPath -->
         <json-path.version>2.4.0</json-path.version>
         <!-- Library for managing JSON Web Tokens (JWT): https://bitbucket.org/connect2id/nimbus-jose-jwt/wiki/Home -->
-        <nimbus-jose-jwt.version>6.2</nimbus-jose-jwt.version>
+        <nimbus-jose-jwt.version>7.9</nimbus-jose-jwt.version>
     </properties>
 
     <profiles>
@@ -204,14 +204,14 @@
         <dependency>
             <groupId>com.flipkart.zjsonpatch</groupId>
             <artifactId>zjsonpatch</artifactId>
-            <version>0.4.6</version>
+            <version>0.4.7</version>
         </dependency>
 
         <!-- The HAL Browser -->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>2.5.7.RELEASE</version>
+            <version>3.2.3.RELEASE</version>
             <!-- if you get a java.util.zip.ZipException: invalid LOC
                  header (bad signature) during the tomcat startup
                  force the use of the previous version as the jar file
